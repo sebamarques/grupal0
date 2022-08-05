@@ -7,3 +7,13 @@ h1{
     text-align: center;
     font-size: 8rem;
 }
+img {
+	float: center;
+    margin-right: 50px;
+    margin-left: 100px;
+} 
+em.destacar {
+    background: white;
+    border: 1px solid blue;
+    padding: .1em;
+}
