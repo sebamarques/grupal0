@@ -19,5 +19,6 @@ em.destacar {
     padding: .1em;
 }
 #suarez{
-    width: 50%;
+    height: fit-content;
+    width: fit-content;
 }
