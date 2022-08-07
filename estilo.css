@@ -1,31 +1,63 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: lightgray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(6, 6, 150);
+    color: white;
 }
 h1{
-    color: blue;
+    color: red;
     text-align: center;
     font-size: 8rem;
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(1, 1, 68);
+    text-align: left;
 }
 img {
-	float: center;
-    margin-right: 50px;
-    margin-left: 100px;
-    width: 50%;
+	height: 150px;
     border-radius: 5%;
     border: 2px solid red;
 } 
 em.destacar {
-    background: white;
+    background: darkred;
     border: 1px solid blue;
     padding: .1em;
 }
-#suarez{
-    height: 50%;
-    width: 50%;
-}
+
 h3{
-    color: darkblue;
-    text-align: left;
-    font-size: 1rem;
+    color: darkred;
+    font-size: 2rem;
 }
+
+th{
+    padding-inline:100px;
+}
+
+table{
+    background-color: darkred;
+    margin: auto;
+}
+
+a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.right{
+    text-align: right;
+
+}
+.right img{
+    float:right;
+    margin-left: 1%;
+ }
+
+
+.left img{
+    float:left;
+    margin-right: 1%;
+ }
