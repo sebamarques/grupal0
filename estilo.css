@@ -15,6 +15,8 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(1, 1, 68);
     text-align: left;
+    padding-left: 10px;
+    
 }
 img {
 	height: 150px;
@@ -30,15 +32,21 @@ em.destacar {
 h3{
     color: darkred;
     font-size: 2rem;
+    background: white;
+    border: 1px solid blue;
+    padding: .1em;
+
 }
 
 th{
-    padding-inline:100px;
+    padding-inline:80px;
 }
 
 table{
     background-color: darkred;
     margin: auto;
+    
+    
 }
 
 a{
@@ -61,3 +69,10 @@ a{
     float:left;
     margin-right: 1%;
  }
+
+
+*{
+    margin: 20px;
+}
+
+
