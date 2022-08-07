@@ -12,6 +12,8 @@ img {
     margin-right: 50px;
     margin-left: 100px;
     width: 50%;
+    border-radius: 5%;
+    border: 2px solid red;
 } 
 em.destacar {
     background: white;
